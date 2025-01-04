@@ -20,7 +20,7 @@ function App() {
       <div className="flex items-center justify-center mb-8">
         <Terminal className="w-8 h-8 text-green-400 mr-2" />
         <h1 className="text-green-400 text-2xl md:text-4xl font-bold font-mono">
-          EXAM_SCHEDULE.exe
+          EXAM_SCHEDULE
         </h1>
       </div>
 
@@ -73,7 +73,9 @@ function App() {
                 className="mt-4 w-full bg-gray-700 hover:bg-gray-600 text-green-400 font-mono py-2 px-4 rounded flex items-center justify-center space-x-2 rtl:space-x-reverse transition-colors duration-300"
               >
                 <FileText className="w-5 h-5" />
-                <span>DOWNLOAD_MATERIALS.pdf</span>
+                <span> Book/Booklet.pdf
+                  {exam.pdf.name}
+                </span>
               </button>
             </div>
           </div>
