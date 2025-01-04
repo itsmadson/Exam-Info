@@ -1,13 +1,12 @@
+// src/App.jsx
 import React, { useState, useEffect } from 'react';
-import { Terminal, Calendar, Clock, FileText, Quote } from 'lucide-react';
-import { Card, CardContent } from '@/components/ui/card';
-import examData from '../data/exams.json';
+import { Calendar, Clock, FileText, Terminal, Quote } from 'lucide-react';
+import examData from './data/exams.json';
 
-const ExamSchedule = () => {
+function App() {
   const [exams, setExams] = useState([]);
 
   useEffect(() => {
-    // Load exams from JSON file
     setExams(examData.exams);
   }, []);
 
@@ -25,28 +24,11 @@ const ExamSchedule = () => {
         </h1>
       </div>
 
-      {/* Matrix-like decoration */}
-      <div className="fixed top-0 left-0 w-full h-full pointer-events-none opacity-10 select-none overflow-hidden font-mono text-green-400 z-0">
-        {[...Array(10)].map((_, i) => (
-          <div key={i} className="absolute text-xs" style={{
-            left: `${i * 10}%`,
-            animation: `fall ${Math.random() * 5 + 3}s linear infinite`,
-            animationDelay: `${Math.random() * 2}s`
-          }}>
-            {[...Array(20)].map((_, j) => (
-              <div key={j}>
-                {Math.random().toString(36).charAt(2)}
-              </div>
-            ))}
-          </div>
-        ))}
-      </div>
-
       {/* Main content */}
       <div className="relative z-10 max-w-4xl mx-auto grid gap-4">
         {exams.map((exam, index) => (
-          <Card key={index} className="bg-gray-800 border-green-400/20 hover:border-green-400/40 transition-all duration-300">
-            <CardContent className="p-6">
+          <div key={index} className="bg-gray-800 border border-green-400/20 hover:border-green-400/40 transition-all duration-300 rounded-lg">
+            <div className="p-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 {/* Exam Name */}
                 <div className="flex items-start space-x-3 rtl:space-x-reverse">
@@ -93,19 +75,12 @@ const ExamSchedule = () => {
                 <FileText className="w-5 h-5" />
                 <span>DOWNLOAD_MATERIALS.pdf</span>
               </button>
-            </CardContent>
-          </Card>
+            </div>
+          </div>
         ))}
       </div>
-
-      <style jsx global>{`
-        @keyframes fall {
-          from { transform: translateY(-100%); }
-          to { transform: translateY(100vh); }
-        }
-      `}</style>
     </div>
   );
-};
+}
 
-export default ExamSchedule;
+export default App;
