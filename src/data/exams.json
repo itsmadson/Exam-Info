@@ -5,7 +5,7 @@
         "date": "پنجشنبه ۲۰ دی",
         "time": "۱۰ - ۱۱",
         "quote": "تا آخر فصل ۱۰ میاد.",
-        "pdf": "assets/akhlagh.pdf",
+        "pdf": "https://github.com/itsmadson/Exam-Info/blob/main/src/assets/akhlagh.pdf",
         "file":"akhlagh.pdf"
       },
       {
@@ -13,7 +13,7 @@
         "date": "پنجشنبه ۲۰ دی",
         "time": "۱۳ - ۱۵",
         "quote": "فصل ۸ و ۹ حذفه \n در ذیل پاسخنامه برگه امتحانی با عنوان توضیحات دانشجو موارد مربوط به فعالیت کلاسی ۶ نمره را بنویسید. همچنین سایر موارد و ... در نمره ارفاقی میزان حضور مباحث کلاسی مباحث مناسبتی و سایر فعالیت ها ... به کسانی  که انتقادات و پیشنهادات خود را درمورد کلاس بنویسند و قبل از ورود به جلسه امتان تحویل دهند نمره ارفاقی تعلق میگیرد.",
-        "pdf": "assets/enghelab.pdf",
+        "pdf": "https://github.com/itsmadson/Exam-Info/blob/main/src/assets/enghelab.pdf",
         "file":"fucking-enghelab.pdf"
       },
       {
@@ -21,7 +21,7 @@
         "date": "یکشنبه ۲۳ دی",
         "time": "۱۰ - ۱۲",
         "quote": "فایل مدار؛ مباحث داخل میان ترم حذفه\nتبدیل ستاره به مثلث یا برعکس\nولتاژ دو سر a , b\nموازی کردن منبع جریان (جمع جبری، جهت سرش)\nتقسیم کننده ولتاژ\nتقسیم کننده جریان\nتبدیل منابع در مدار\nتحلیل گره سوال میاد (یک سوال، حالت های خاص)\nتحلیل مش (یک سوال، جریانش معلومی kvl نمیخواد، حواستون به شاخه مشترک باشه)\nقضیه جمع آثار (منبع مستقل حذف کنید، منبع وابسته رو حذف نکنید)\nمحاسبه تونن و نورتن",
-        "pdf": "assets/madar.pdf",
+        "pdf": "https://github.com/itsmadson/Exam-Info/blob/main/src/assets/madar.pdf",
         "file":"medar-electric.pdf"
       },
       {
@@ -29,7 +29,7 @@
         "date": "دوشنبه ۲۴ دی",
         "time": "۱۰ -۱۲",
         "quote": "",
-        "pdf": "assets/riyazi2.pdf",
+        "pdf": "https://github.com/itsmadson/Exam-Info/blob/main/src/assets/riyazi2.pdf",
         "file":"riyazi2.pdf"
       },
       {
@@ -37,7 +37,7 @@
         "date": "چهارشنبه ۲۶ دی",
         "time": "۱۰ - ۱۲",
         "quote": "دسته بندی میکروکنترلر ها\nخود میکروکنترلر ها (ویژگی هاشون)\nپورت ها (۵ تا شکل پایه ها)\nدسترسی به حافظه خارجی (شکل و سه خط توضیحات)",
-        "pdf": "assets/sakhtar.pdf",
+        "pdf": "https://github.com/itsmadson/Exam-Info/blob/main/src/assets/sakhtar.pdf",
         "file":"sakhtar-zaban.pdf"
       },
       {
@@ -52,7 +52,7 @@
         "date": "چهارشنبه ۳ بهمن",
         "time": "۱۰ - ۱۲",
         "quote": "تا انتهای صفحه ۲۱۶ میاد و فصل ۷ حذفه همچنین ارسال پروژه ها یادتون نره.",
-        "pdf": "assets/dade.pdf",
+        "pdf": "https://github.com/itsmadson/Exam-Info/blob/main/src/assets/dade.pdf",
         "file":"sakhteman-dade.pdf"
       }
     ]

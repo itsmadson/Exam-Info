@@ -159,7 +159,7 @@ function App() {
           <div className="relative w-full" style={{ paddingBottom: '30%' }}>
             <iframe
               className="absolute top-0 left-0 w-full h-full"
-              src="https://youtu.be/CFGLoQIhmow?si=jWa2SQWnXbmxfgHz"
+              src="https://www.youtube.com/embed/jfKfPfyJRdk?autoplay=1&mute=0"
               title="Lofi Music"
               allow="autoplay; encrypted-media"
               allowFullScreen
