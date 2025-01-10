@@ -97,7 +97,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#4a4336] p-4 md:p-8">
+    <div className="min-h-screen bg-[#2e2a24] p-4 md:p-8">
       <div className="flex items-center justify-center mb-8">
         <Terminal className="w-8 h-8 text-[#f5f5dc] mr-2" />
         <h1 className="text-[#f5f5dc] text-2xl md:text-4xl font-bold font-mono">EXAM_SCHEDULE</h1>
@@ -105,20 +105,20 @@ function App() {
 
       <div className="max-w-4xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-          <div className="bg-[#6b5e4a] border border-[#f5f5dc]/20 hover:border-[#f5f5dc]/40 transition-all duration-300 rounded-lg p-6">
+          <div className="bg-[#3d362d] border border-[#f5f5dc]/20 hover:border-[#f5f5dc]/40 transition-all duration-300 rounded-lg p-6">
             <div className="flex items-center justify-between mb-4">
               <h2 className="text-[#f5f5dc] text-xl font-mono">Date & Time</h2>
               {greeting.icon}
             </div>
             <p className="text-[#f5f5dc] text-lg mb-2">{currentWeekday}</p>
             <p className="text-[#f5f5dc] text-lg">{currentDateTime || 'Loading...'}</p>
-            <div className="mt-4 p-3 bg-[#8a7a63] rounded-lg">
+            <div className="mt-4 p-3 bg-[#4a4035] rounded-lg">
               <p className="text-[#f5f5dc]">{greeting.text}!</p>
               <p className="text-[#f5f5dc] text-sm mt-1">Ready for your study session?</p>
             </div>
           </div>
 
-          <div className="bg-[#6b5e4a] border border-[#f5f5dc]/20 hover:border-[#f5f5dc]/40 transition-all duration-300 rounded-lg p-6">
+          <div className="bg-[#3d362d] border border-[#f5f5dc]/20 hover:border-[#f5f5dc]/40 transition-all duration-300 rounded-lg p-6">
             <h2 className="text-[#f5f5dc] text-xl font-mono">Pomodoro Timer</h2>
             <p className="text-[#f5f5dc] text-lg mt-4">
               {pomodoro.minutes}:{pomodoro.seconds.toString().padStart(2, '0')}
@@ -126,13 +126,13 @@ function App() {
             <div className="mt-4 flex space-x-2">
               <button
                 onClick={togglePomodoro}
-                className="w-full bg-[#8a7a63] hover:bg-[#6b5e4a] text-[#f5f5dc] font-mono py-2 px-4 rounded transition-colors duration-300"
+                className="w-full bg-[#4a4035] hover:bg-[#3d362d] text-[#f5f5dc] font-mono py-2 px-4 rounded transition-colors duration-300"
               >
                 {isRunning ? 'Pause' : 'Start'}
               </button>
               <button
                 onClick={resetPomodoro}
-                className="w-full bg-[#8a7a63] hover:bg-[#6b5e4a] text-[#f5f5dc] font-mono py-2 px-4 rounded transition-colors duration-300"
+                className="w-full bg-[#4a4035] hover:bg-[#3d362d] text-[#f5f5dc] font-mono py-2 px-4 rounded transition-colors duration-300"
               >
                 Reset
               </button>
@@ -140,13 +140,13 @@ function App() {
             <div className="mt-4 flex space-x-2">
               <button
                 onClick={() => setPomodoroInterval(25)}
-                className={`w-full ${pomodoroInterval === 25 ? 'bg-[#a89f8e]' : 'bg-[#8a7a63]'} hover:bg-[#6b5e4a] text-[#f5f5dc] font-mono py-2 px-4 rounded transition-colors duration-300`}
+                className={`w-full ${pomodoroInterval === 25 ? 'bg-[#5a4f42]' : 'bg-[#4a4035]'} hover:bg-[#3d362d] text-[#f5f5dc] font-mono py-2 px-4 rounded transition-colors duration-300`}
               >
                 25 Min
               </button>
               <button
                 onClick={() => setPomodoroInterval(50)}
-                className={`w-full ${pomodoroInterval === 50 ? 'bg-[#a89f8e]' : 'bg-[#8a7a63]'} hover:bg-[#6b5e4a] text-[#f5f5dc] font-mono py-2 px-4 rounded transition-colors duration-300`}
+                className={`w-full ${pomodoroInterval === 50 ? 'bg-[#5a4f42]' : 'bg-[#4a4035]'} hover:bg-[#3d362d] text-[#f5f5dc] font-mono py-2 px-4 rounded transition-colors duration-300`}
               >
                 50 Min
               </button>
@@ -154,7 +154,7 @@ function App() {
           </div>
         </div>
 
-        <div className="bg-[#6b5e4a] border border-[#f5f5dc]/20 hover:border-[#f5f5dc]/40 transition-all duration-300 rounded-lg p-6 mb-8">
+        <div className="bg-[#3d362d] border border-[#f5f5dc]/20 hover:border-[#f5f5dc]/40 transition-all duration-300 rounded-lg p-6 mb-8">
           <h2 className="text-[#f5f5dc] text-xl font-mono mb-4">Study Music</h2>
           <div className="relative w-full" style={{ paddingBottom: '30%' }}>
             <iframe
@@ -169,7 +169,7 @@ function App() {
 
         <div className="grid gap-4">
           {exams.map((exam, index) => (
-            <div key={index} className="bg-[#6b5e4a] border border-[#f5f5dc]/20 hover:border-[#f5f5dc]/40 transition-all duration-300 rounded-lg">
+            <div key={index} className="bg-[#3d362d] border border-[#f5f5dc]/20 hover:border-[#f5f5dc]/40 transition-all duration-300 rounded-lg">
               <div className="p-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div className="flex items-start space-x-3">
@@ -203,7 +203,7 @@ function App() {
                 </div>
                 <button
                   onClick={() => openPDF(exam.pdf)}
-                  className="mt-4 w-full bg-[#8a7a63] hover:bg-[#6b5e4a] text-[#f5f5dc] font-mono py-2 px-4 rounded flex items-center justify-center"
+                  className="mt-4 w-full bg-[#4a4035] hover:bg-[#3d362d] text-[#f5f5dc] font-mono py-2 px-4 rounded flex items-center justify-center"
                 >
                   <FileText className="w-5 h-5" />
                   <span>{exam.file}</span>
