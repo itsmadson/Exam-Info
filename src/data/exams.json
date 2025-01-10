@@ -1,59 +1,50 @@
 {
-    "exams": [
-      {
-        "exam": "اخلاق اسلامی",
-        "date": "پنجشنبه ۲۰ دی",
-        "time": "۱۰ - ۱۱",
-        "quote": "تا آخر فصل ۱۰ میاد.",
-        "pdf": "https://drive.google.com/file/d/1QNjwVc3ehHdl-JPTnf69MV6qUFpBZ0b_/view?usp=sharing",
-        "file":"akhlagh.pdf"
-      },
-      {
-        "exam": " انقلاب اسلامی",
-        "date": "پنجشنبه ۲۰ دی",
-        "time": "۱۳ - ۱۵",
-        "quote": "فصل ۸ و ۹ حذفه \n در ذیل پاسخنامه برگه امتحانی با عنوان توضیحات دانشجو موارد مربوط به فعالیت کلاسی ۶ نمره را بنویسید. همچنین سایر موارد و ... در نمره ارفاقی میزان حضور مباحث کلاسی مباحث مناسبتی و سایر فعالیت ها ... به کسانی  که انتقادات و پیشنهادات خود را درمورد کلاس بنویسند و قبل از ورود به جلسه امتان تحویل دهند نمره ارفاقی تعلق میگیرد.",
-        "pdf": "https://drive.google.com/file/d/1Cc4EZSGE4r7nmZslVn0bkdJl8559Tg5k/view?usp=sharing",
-        "file":"fucking-enghelab.pdf"
-      },
-      {
-        "exam": "مدار الکتریکی",
-        "date": "یکشنبه ۲۳ دی",
-        "time": "۱۰ - ۱۲",
-        "quote": "فایل مدار؛ مباحث داخل میان ترم حذفه\nتبدیل ستاره به مثلث یا برعکس\nولتاژ دو سر a , b\nموازی کردن منبع جریان (جمع جبری، جهت سرش)\nتقسیم کننده ولتاژ\nتقسیم کننده جریان\nتبدیل منابع در مدار\nتحلیل گره سوال میاد (یک سوال، حالت های خاص)\nتحلیل مش (یک سوال، جریانش معلومی kvl نمیخواد، حواستون به شاخه مشترک باشه)\nقضیه جمع آثار (منبع مستقل حذف کنید، منبع وابسته رو حذف نکنید)\nمحاسبه تونن و نورتن",
-        "pdf": "https://drive.google.com/file/d/19B7W1pJxsxxGVCAZjK0fB21X46QEbG0r/view?usp=sharing",
-        "file":"medar-electric.pdf"
-      },
-      {
-        "exam": " ریاضی ۲",
-        "date": "دوشنبه ۲۴ دی",
-        "time": "۱۰ -۱۲",
-        "quote": "از توابع چند متغیره؛ صفحه ۲۵ همین جزوه",
-        "pdf": "https://drive.google.com/file/d/1IPCVriyHUkpqdup4LHwNBVfze3k6DVS3/view?usp=drive_link",
-        "file":"riyazi2.pdf"
-      },
-      {
-        "exam": " ساختار و زبان کامپیوتر",
-        "date": "چهارشنبه ۲۶ دی",
-        "time": "۱۰ - ۱۲",
-        "quote": "دسته بندی میکروکنترلر ها\nخود میکروکنترلر ها (ویژگی هاشون)\nپورت ها (۵ تا شکل پایه ها)\nدسترسی به حافظه خارجی (شکل و سه خط توضیحات)",
-        "pdf": "https://drive.google.com/file/d/19FqAWau2U0h_PWvnIymrDXq-fuZksVvx/view?usp=drive_link",
-        "file":"sakhtar-zaban.pdf"
-      },
-      {
-        "exam": " زبان تخصصی",
-        "date": "شنبه ۲۹ دی",
-        "time": "۱۳ - ۱۵",
-        "quote": "تا انتهای درس ۱۳ میاد و درس های ۷ و۹ و۱۰ حذفه",
-        "file":"فایل دیجیتال کتاب موجود نیست."
-      },
-      {
-        "exam": " ساختمان داده",
-        "date": "چهارشنبه ۳ بهمن",
-        "time": "۱۰ - ۱۲",
-        "quote": "تا انتهای صفحه ۲۱۶ میاد و فصل ۷ حذفه همچنین ارسال پروژه ها یادتون نره.",
-        "pdf": "https://drive.google.com/file/d/1Gao-Y2YbTZVDUMPdtI5_m7DXAbjgj7db/view?usp=drive_link",
-        "file":"sakhteman-dade.pdf"
-      }
-    ]
-  }
+  "exams": [
+    {
+      "exam": "مدار الکتریکی",
+      "date": "یکشنبه ۲۳ دی",
+      "time": "۱۰ - ۱۲",
+      "quote": "فایل مدار؛ مباحث داخل میان ترم حذفه\nتبدیل ستاره به مثلث یا برعکس\nولتاژ دو سر a , b\nموازی کردن منبع جریان (جمع جبری، جهت سرش)\nتقسیم کننده ولتاژ\nتقسیم کننده جریان\nتبدیل منابع در مدار\nتحلیل گره سوال میاد (یک سوال، حالت های خاص)\nتحلیل مش (یک سوال، جریانش معلومی kvl نمیخواد، حواستون به شاخه مشترک باشه)\nقضیه جمع آثار (منبع مستقل حذف کنید، منبع وابسته رو حذف نکنید)\nمحاسبه تونن و نورتن",
+      "pdf": "https://drive.google.com/file/d/19B7W1pJxsxxGVCAZjK0fB21X46QEbG0r/view?usp=sharing",
+      "file":"medar-electric.pdf"
+    },
+    {
+      "exam": " ریاضی ۲",
+      "date": "دوشنبه ۲۴ دی",
+      "time": "۱۰ -۱۲",
+      "quote": "از توابع چند متغیره؛ صفحه ۲۵ همین جزوه",
+      "pdf": "https://drive.google.com/file/d/1IPCVriyHUkpqdup4LHwNBVfze3k6DVS3/view?usp=drive_link",
+      "file":"riyazi2.pdf"
+    },
+    {
+      "exam": " ساختار و زبان کامپیوتر",
+      "date": "چهارشنبه ۲۶ دی",
+      "time": "۱۰ - ۱۲",
+      "quote": "دسته بندی میکروکنترلر ها\nخود میکروکنترلر ها (ویژگی هاشون)\nپورت ها (۵ تا شکل پایه ها)\nدسترسی به حافظه خارجی (شکل و سه خط توضیحات)",
+      "pdf": "https://drive.google.com/file/d/19FqAWau2U0h_PWvnIymrDXq-fuZksVvx/view?usp=drive_link",
+      "file":"sakhtar-zaban.pdf"
+    },
+    {
+      "exam": " زبان تخصصی",
+      "date": "شنبه ۲۹ دی",
+      "time": "۱۳ - ۱۵",
+      "quote": "تا انتهای درس ۱۳ میاد و درس های ۷ و۹ و۱۰ حذفه",
+      "file":"فایل دیجیتال کتاب موجود نیست."
+    },
+    {
+      "exam": " دیفرانسیل",
+      "date": "دوشنبه ۱ بهمن",
+      "time": "۸ - ۱۰",
+      "quote": "فصل ۴ و ۶ و۷ و ۳-۵ و ۳-۶ حذفه",
+      "file":"فایل دیجیتال کتاب موجود نیست."
+    },
+    {
+      "exam": " ساختمان داده",
+      "date": "چهارشنبه ۳ بهمن",
+      "time": "۱۰ - ۱۲",
+      "quote": "تا انتهای صفحه ۲۱۶ میاد و فصل ۷ حذفه همچنین ارسال پروژه ها یادتون نره.",
+      "pdf": "https://drive.google.com/file/d/1Gao-Y2YbTZVDUMPdtI5_m7DXAbjgj7db/view?usp=drive_link",
+      "file":"sakhteman-dade.pdf"
+    }
+  ]
+}
