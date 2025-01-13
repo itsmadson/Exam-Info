@@ -1,14 +1,6 @@
 {
   "exams": [
     {
-      "exam": " ریاضی ۲",
-      "date": "دوشنبه ۲۴ دی",
-      "time": "۱۰ -۱۲",
-      "quote": "از توابع چند متغیره؛ صفحه ۲۵ همین جزوه",
-      "pdf": "https://drive.google.com/file/d/1IPCVriyHUkpqdup4LHwNBVfze3k6DVS3/view?usp=drive_link",
-      "file":"riyazi2.pdf"
-    },
-    {
       "exam": " ساختار و زبان کامپیوتر",
       "date": "چهارشنبه ۲۶ دی",
       "time": "۱۰ - ۱۲",
